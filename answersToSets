@@ -1,0 +1,10 @@
+ss= (set_a == set_b)
+ss= (set_a == set_a)
+ss= (set_a ^ set_b) ^ set_c
+ss= (set_a ^ set_b) ^ (set_a & set_c)
+ss= (set_a ^ set_b) & (set_a & set_c)
+ss= (set_a ^ set_b) & (set_a ^ set_c)
+ss= (set_a ^ set_b) | (set_a & set_c)
+ss= (set_a | set_b) & (set_a & set_b)
+ss= ((set_a | set_b) & (set_a ^ set_c))^ set_d
+ss= ((set_a ^ set_b) & (set_a ^ set_c))^ set_d
